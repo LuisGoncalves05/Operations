@@ -5,8 +5,7 @@ public class Main {
         String operation = scanner.nextLine();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        String operation = scanner.nextLine();
-        int res = 0;
+        int res;
         if (operation.equals("sum")) {
             res = a + b;
         } else {
