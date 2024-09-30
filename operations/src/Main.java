@@ -10,5 +10,6 @@ public class Main {
         } else {
             System.out.println(a * b);
         }
+        System.out.println("Result: " + (a + b));
     }
 }
