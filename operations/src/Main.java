@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        String operation = scanner.nextLine();
         Scanner scanner = new Scanner(System.in);
+        String operation = scanner.nextLine();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         if (operation.equals("sum")) {
